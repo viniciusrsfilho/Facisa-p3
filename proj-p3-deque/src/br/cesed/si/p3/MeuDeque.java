@@ -22,6 +22,10 @@ public class MeuDeque {
 		objetos = new Object[tamanho];
 	}
 	
+	public int size(){
+		return inseridos;
+	}
+	
 	/**
 	 * Add an object in last position
 	 * 
